@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import BasicEmbed from "./components/BasicEmbed";
+import DynamicLoad from "./components/DynamicLoad";
 import Home from "./components/Home";
 import "./App.css";
 
@@ -27,11 +28,15 @@ class App extends Component {
                   Basic Embed
                 </Link>
               </li>
+              <li>
+                <Link to="/dynamic-load">Dynamic Load</Link>
+              </li>
             </ul>
           </nav>
 
           <Route path="/" exact component={Home} />
           <Route path="/embed/" component={BasicEmbed} />
+          <Route path="/dynamic-load/" component={DynamicLoad} />
           {/* testing sending string prop and destructure in component */}
         </div>
       </Router>
