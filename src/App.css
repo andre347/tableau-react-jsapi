@@ -6,6 +6,25 @@
   align-items: center;
 }
 
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  padding: 7px 15px;
+  margin: 5px;
+  background-color: #333;
+}
+li a {
+  text-decoration: none !important;
+  color: #fff;
+}
+
+li:hover {
+  background-color: rgb(101, 94, 94);
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;

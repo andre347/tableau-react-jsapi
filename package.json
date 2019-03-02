@@ -5,11 +5,13 @@
   "dependencies": {
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "now-build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

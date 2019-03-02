@@ -11,7 +11,8 @@
 - [x] Initialise Tableau --> destructure from the window
 - [x] Basic Embed
   - [x] Create component --> passing in props for title
-- [ ] Install React Router
+- [x] Install React Router
+  - [x] Set up Route for Basic Embed and Dynamic Load
 - [ ] Dynamic Load
 - [ ] Export to PDF
 - [ ] Filter
