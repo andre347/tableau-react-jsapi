@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import BasicEmbed from "./components/BasicEmbed";
 import DynamicLoad from "./components/DynamicLoad";
 import ExportPDF from "./components/ExportPDF";
+import Filter from "./components/Filter";
 import Home from "./components/Home";
 import "./App.css";
 
@@ -35,6 +36,9 @@ class App extends Component {
               <li>
                 <Link to="/export-pdf">Export PDF</Link>
               </li>
+              <li>
+                <Link to="/filter">Filter</Link>
+              </li>
             </ul>
           </nav>
 
@@ -42,6 +46,7 @@ class App extends Component {
           <Route path="/embed/" component={BasicEmbed} />
           <Route path="/dynamic-load/" component={DynamicLoad} />
           <Route path="/export-pdf/" component={ExportPDF} />
+          <Route path="/filter/" component={Filter} />
           {/* testing sending string prop and destructure in component */}
         </div>
       </Router>
