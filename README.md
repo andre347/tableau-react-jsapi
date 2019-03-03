@@ -13,9 +13,10 @@
   - [x] Create component --> passing in props for title
 - [x] Install React Router
   - [x] Set up Route for Basic Embed and Dynamic Load
-- [ ] Dynamic Load
-- [ ] Export to PDF
-- [ ] Filter
+- [x] Dynamic Load
+- [x] Export to PDF
+- [x] Filter
 - [ ] Get Data
 - [ ] Resize
 - [ ] Respond to events
+- [ ] Select Marks
