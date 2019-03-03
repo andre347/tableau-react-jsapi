@@ -4,13 +4,12 @@ const { tableau } = window;
 
 function DynamicLoad() {
   const [vizList] = useState(dashboards);
-  const [vizCount, setVizCount] = useState(4);
+  const [vizCount, setVizCount] = useState(0);
   const [viz, setViz] = useState(null);
 
   const initViz = () => {
     let vizDiv = document.getElementById("vizContainer");
     let vizURL = vizList[vizCount];
-    console.log(vizList);
     if (viz) {
       viz.dispose();
       setViz(null);
@@ -25,7 +24,6 @@ function DynamicLoad() {
       <h1>Dynamic Load</h1>
       <button onClick={() => setVizCount(checkminValue(vizCount))}>Previous</button>
       <button onClick={() => setVizCount(checkmaxValue(vizCount, vizList.length))}>Next</button>
-      <p>{vizCount}</p>
       <div style={setVizStyle} id="vizContainer" />
     </div>
   );
@@ -40,6 +38,7 @@ const checkmaxValue = (value, max) => {
 };
 
 const setVizStyle = {
+  margin: "25px",
   width: "800px",
   height: "700px"
 };

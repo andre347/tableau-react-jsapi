@@ -2,10 +2,9 @@ import React, { useState, useEffect } from "react";
 const { tableau } = window;
 
 function BasicEmbed(props) {
-  const [url, setUrl] = useState("https://public.tableau.com/views/RegionalSampleWorkbook/Storms");
+  const [url] = useState("https://public.tableau.com/views/RegionalSampleWorkbook/Storms");
 
   const initViz = () => {
-    console.log("Using the effect hook..");
     let containerDiv = document.getElementById("container");
     new tableau.Viz(containerDiv, url);
   };
