@@ -16,7 +16,7 @@
 - [x] Dynamic Load
 - [x] Export to PDF
 - [x] Filter
-- [ ] Get Data
+- [x] Get Data
 - [ ] Resize
 - [ ] Respond to events
 - [ ] Select Marks
