@@ -6,6 +6,7 @@ import DynamicLoad from "./components/DynamicLoad";
 import ExportPDF from "./components/ExportPDF";
 import Filter from "./components/Filter";
 import GetData from "./components/GetData";
+import Resize from "./components/Resize";
 import Home from "./components/Home";
 import "./App.css";
 
@@ -43,6 +44,9 @@ class App extends Component {
               <li>
                 <Link to="/get-data">Get Data</Link>
               </li>
+              <li>
+                <Link to="/resize">Resize</Link>
+              </li>
             </ul>
           </nav>
 
@@ -52,6 +56,7 @@ class App extends Component {
           <Route path="/export-pdf/" component={ExportPDF} />
           <Route path="/filter/" component={Filter} />
           <Route path="/get-data/" component={GetData} />
+          <Route path="/resize/" component={Resize} />
           {/* testing sending string prop and destructure in component */}
         </div>
       </Router>

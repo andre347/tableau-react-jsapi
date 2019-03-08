@@ -17,6 +17,6 @@
 - [x] Export to PDF
 - [x] Filter
 - [x] Get Data
-- [ ] Resize
+- [x] Resize
 - [ ] Respond to events
 - [ ] Select Marks
