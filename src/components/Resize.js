@@ -20,8 +20,8 @@ function Resize() {
 
   const setVizStyle = {
     margin: "25px",
-    width: "600px",
-    height: "650px"
+    width: width + 25,
+    height: height + 25
   };
 
   function SetDimensions() {

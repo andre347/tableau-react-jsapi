@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <nav>
+          <nav className="navBar">
             <ul>
               <li>
                 <Link to="/">Home</Link>
@@ -50,14 +50,16 @@ class App extends Component {
             </ul>
           </nav>
 
-          <Route path="/" exact component={Home} />
-          <Route path="/embed/" component={BasicEmbed} />
-          <Route path="/dynamic-load/" component={DynamicLoad} />
-          <Route path="/export-pdf/" component={ExportPDF} />
-          <Route path="/filter/" component={Filter} />
-          <Route path="/get-data/" component={GetData} />
-          <Route path="/resize/" component={Resize} />
-          {/* testing sending string prop and destructure in component */}
+          <section>
+            <Route path="/" exact component={Home} />
+            <Route path="/embed/" component={BasicEmbed} />
+            <Route path="/dynamic-load/" component={DynamicLoad} />
+            <Route path="/export-pdf/" component={ExportPDF} />
+            <Route path="/filter/" component={Filter} />
+            <Route path="/get-data/" component={GetData} />
+            <Route path="/resize/" component={Resize} />
+            {/* testing sending string prop and destructure in component */}
+          </section>
         </div>
       </Router>
     );
