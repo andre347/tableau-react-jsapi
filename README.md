@@ -20,3 +20,5 @@
 - [x] Resize
 - [ ] Respond to events
 - [ ] Select Marks
+
+- [x] Refactor the NavBar to a Component
