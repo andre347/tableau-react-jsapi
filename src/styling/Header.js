@@ -7,6 +7,7 @@ import ExportPDF from "../components/ExportPDF";
 import Filter from "../components/Filter";
 import GetData from "../components/GetData";
 import Resize from "../components/Resize";
+import Events from "../components/Events";
 import Home from "../components/Home";
 
 function Header() {
@@ -45,6 +46,9 @@ function Header() {
             <li>
               <Link to="/resize">Resize</Link>
             </li>
+            <li>
+              <Link to="/events">Events</Link>
+            </li>
           </ul>
         </nav>
 
@@ -56,6 +60,7 @@ function Header() {
           <Route path="/filter/" component={Filter} />
           <Route path="/get-data/" component={GetData} />
           <Route path="/resize/" component={Resize} />
+          <Route path="/events/" component={Events} />
           {/* testing sending string prop and destructure in component */}
         </section>
       </div>

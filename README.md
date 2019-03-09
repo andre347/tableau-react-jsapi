@@ -21,4 +21,5 @@
 - [ ] Respond to events
 - [ ] Select Marks
 
+- [ ] Create Tableau Embed Component from Hook
 - [x] Refactor the NavBar to a Component
