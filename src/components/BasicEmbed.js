@@ -24,4 +24,6 @@ const setVizStyle = {
   height: "700px"
 };
 
+
+
 export default BasicEmbed;

@@ -1,11 +1,9 @@
-import React, { Component } from "react";
-import Header from "./styling/Header";
+import React from "react";
+import Content from "./navigation/Content";
 import "./App.css";
 
-class App extends Component {
-  render() {
-    return <Header />;
-  }
+function App() {
+  return <Content />;
 }
 
 export default App;

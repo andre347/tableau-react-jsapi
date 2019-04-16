@@ -10,11 +10,14 @@ function DynamicLoad() {
   const initViz = () => {
     let vizDiv = document.getElementById("vizContainer");
     let vizURL = vizList[vizCount];
+    const options = {
+      hideTabs: true
+    };
     if (viz) {
       viz.dispose();
       setViz(null);
     }
-    setViz(new tableau.Viz(vizDiv, vizURL));
+    setViz(new tableau.Viz(vizDiv, vizURL, options));
   };
 
   useEffect(initViz, [vizCount]);

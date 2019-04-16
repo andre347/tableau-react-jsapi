@@ -18,8 +18,9 @@
 - [x] Filter
 - [x] Get Data
 - [x] Resize
-- [ ] Respond to events
-- [ ] Select Marks
+- [x] Respond to events
+- [x] Select Marks
+- [ ] Add link to Git repo
 
 - [ ] Create Tableau Embed Component from Hook
 - [x] Refactor the NavBar to a Component

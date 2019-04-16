@@ -73,8 +73,19 @@ input {
   margin: 3px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 915px) {
   .navBar ul li a {
     font-size: 12px;
   }
+  .navBar ul li a:hover {
+    color: #e69500;
+    border-bottom: none;
+  }
+}
+
+#githubLink {
+  transition: all 0.2s ease-in-out;
+}
+#githubLink:hover {
+  transform: scale(1.1);
 }
