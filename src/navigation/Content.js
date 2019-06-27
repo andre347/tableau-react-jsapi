@@ -42,6 +42,9 @@ function Header() {
             <li>
               <Link to="/events">Events</Link>
             </li>
+            <li>
+              <Link to="/animation">Animation</Link>
+            </li>
           </ul>
         </nav>
 

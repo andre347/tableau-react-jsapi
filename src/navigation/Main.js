@@ -9,6 +9,7 @@ import GetData from "../components/GetData";
 import Resize from "../components/Resize";
 import Events from "../components/Events";
 import Home from "../components/Home";
+import Animation from "../components/Animation";
 
 function Main() {
   return (
@@ -21,6 +22,7 @@ function Main() {
       <Route path="/get-data/" component={GetData} />
       <Route path="/resize/" component={Resize} />
       <Route path="/events/" component={Events} />
+      <Route path="/animation/" component={Animation} />
       {/* testing sending string prop and destructure in component */}
     </section>
   );
