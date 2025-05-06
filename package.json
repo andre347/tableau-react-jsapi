@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^7.5.2",
     "react-scripts": "2.1.5"
   },
   "scripts": {
